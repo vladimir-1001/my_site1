@@ -1,0 +1,127 @@
+.user_opinion_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	max-width:700px;
+	height:55px;
+	margin:0 auto;
+	border-radius: 15px 15px 0 0;
+	background-color:#594c4c;
+	border:1px solid #594c4c;
+	color:#f8f29e;
+	font-size: 20px;
+}
+.user_opinion_button:hover{
+	cursor:pointer;
+}
+.user_opinion{
+	display:none;
+	max-width:670px;
+	margin:0 auto;
+	padding:15px;
+	height:300px;
+	border:1px solid #594c4c;
+	background-color:#594c4c;
+}
+.input_user_name, .input_user_pass, .input_user_message{
+	width:calc(80% - 20px);
+	display:block;
+	margin: 0 auto 20px auto;
+	border-radius: 15px;
+	padding:0 10px;
+	border:1px solid #594c4c;
+	background-color: #d9f4ff;
+}
+.input_user_name, .input_user_pass{
+	height:30px;
+}
+.input_user_message{
+	height:120px;
+	resize:none;
+}
+.send_opinion{
+	display:block;
+	margin:0 auto;
+	width:80%;
+}
+.user_opinion_down{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	color:#f8f29e;
+	max-width:700px;
+	height:30px;
+	border-radius:0 0 15px 15px;
+	background-color:#594c4c;
+	border:1px solid #594c4c;
+	margin:0 auto 60px auto;
+}
+.message_card{
+	max-width:700px;
+	height:190px;
+	background-color:#594c4c;
+	border-radius: 25px;
+	margin:0 auto 45px auto;
+	position: relative;
+}
+
+.message_card:last-child{
+	margin:0 auto;
+}
+.user_info{
+	width:200px;
+	height:175px;
+	float: left;
+	padding: 15px 15px 0 15px;
+	background-color:#d9f4ff;
+	border-radius: 25px 0 0 25px;
+}
+.user_foto{
+	width:90px;
+	height:90px;
+	background-color:#fff;
+	border-radius: 50%;
+}
+.user_name{
+	font-size: 19px;
+	color:#594c4c;
+	margin:10px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.user_status, .user_data_mesage{
+	font-size:12px;
+	color:#594c4c;
+}
+.user_message{
+	position: relative;
+	color:#fff;
+	width:60%;
+	float:right;
+	height:120px;
+	overflow:hidden;
+	margin:15px 0 10px 0;
+	padding:0px 22px;
+	border-radius:25px;
+	line-height:24px;
+}
+.blur_message{
+	width:90%;
+	height:65px;
+	background: linear-gradient(to top, rgba(89, 76, 76, 1), rgba(0, 0, 0, 0));
+	position:absolute;
+	bottom:0px;
+}
+.show_more{
+	display:block;
+	margin:0 auto;
+}
+
+@media (max-width: 480px){
+	.user_info {
+    	width: 100px;
+	}
+}

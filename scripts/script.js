@@ -1,3 +1,4 @@
+/* показ/сокрытие ката */
 $(document).on("click", ".fog", function(){
 	let heig = $(this).parent(".cut_block").height();
 	$(this).children(".fog_img").toggleClass("fog_up");
