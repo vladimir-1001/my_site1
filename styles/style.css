@@ -7,6 +7,19 @@
 	padding:0;
 	font-family:BodoniNovaNr;
 }
+.my_button{
+	width:auto;
+	height:35px;
+	padding: 0 15px;
+	color: #f8f29e;
+	text-transform: uppercase;
+	background-color: #594c4c;
+	border:1px solid #f8f29e;
+	border-radius: 35px;
+}
+.my_button:hover{
+	cursor: pointer;
+}
 header{
 	width:100%;
 	height:100px;
@@ -21,12 +34,50 @@ header{
 	justify-content:space-between;
 	align-items:center;
 }
-.header_content img{
+.logo{
 	width: 85px;
 }
-.header_content a{
+.header_links{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width: calc(100% - 185px);
+}
+.header_links a{
 	color:#f8f29e;
 	text-decoration: none;
+}
+.search_icon{
+	width:35px;
+}
+.search_icon:hover{
+	cursor:pointer;
+}
+.menu_sendvich{
+	display:none;
+}
+.crumbs{
+	width:100%;
+	height:50px;
+	background-color: #594c4c;
+	border-top:1px dotted #f8f29e;
+}
+.crubs_content{
+	max-width:1200px;
+	height:inherit;
+	margin:0 auto;
+	padding:0 15px;
+	display: flex;
+	align-items: center;
+}
+.crubs_content{
+	color: #f8f29e;
+	text-transform: uppercase;
+}
+.crubs_content a{
+	color:#f8f29e;
+	text-decoration: none;
+	border-bottom: 1px dotted #f8f29e;
 }
 .body_back{
 	width:100%;
@@ -36,6 +87,7 @@ header{
 .body_content{
 	max-width:1200px;
 	margin:0 auto;
+	padding:0 15px;
 	height:auto;
 	background-color: #f8f29e;
 }
@@ -53,6 +105,7 @@ header{
 .cut_block h1{
 	text-align:center;
 	margin:0 auto 25px auto;
+	line-height: 42px;
 }
 .cut_block p{
 	margin:25px 0 0 0;
@@ -105,4 +158,25 @@ footer{
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+
+@media (max-width:480px){
+	.header_links{
+		display:none;
+	}
+	.cut_block{
+		width:100%;
+	}
+	.menu_sendvich{
+		display:block;
+		width: 40px;
+	}
+	.menu_sendvich:hover{
+		cursor:pointer;
+	}
+
+	.verter_img{
+		display:none;
+	}
 }
