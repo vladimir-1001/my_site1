@@ -35,8 +35,8 @@
 	display:inline-block;
 	background-image:url("../images/close.svg");
 	background-color:#4a4141;
-	width:35px;
-	height: 35px;
+	width:30px;
+	height: 30px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	float: right;
@@ -47,7 +47,7 @@
 }
 .mobile_menu_content{
 	width:80vw;
-	margin:100px auto 0 auto;
+	margin:75px auto 0 auto;
 	text-align: center;
 }
 .mobile_menu_content a{
@@ -90,6 +90,42 @@ header{
 .search_icon:hover{
 	cursor:pointer;
 }
+.search_block, .search_mobile_block{
+	display: none;
+	width:80%;
+	height:40px;
+	background-color: #f8f29e;
+	border-radius: 15px;
+}
+.search_mobile_block{
+	margin:0 auto;
+}
+.search_block input, .search_mobile_block input{
+	width:calc(100% - 70px);
+	height:inherit;
+	background-color: inherit;
+	border-radius: 15px 0 0 15px;
+	padding:0 10px;
+	border:none;
+}
+.search_query_button, .search_query_button_mobile{
+	display:inline-block;
+	height: inherit;
+	width: 40px;
+	float:right;
+	border-radius: 0 15px 15px 0;
+	background-image: url("../images/enter.svg");
+	background-size: 20px 20px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.search_query_button:hover, .search_icon_mobile:hover, .search_query_button_mobile:hover{
+	cursor:pointer;
+}
+.search_icon_mobile{
+	width:40px;
+	height:40px;
+}
 .menu_sendvich{
 	display:none;
 }
@@ -125,14 +161,14 @@ header{
 	max-width:1200px;
 	margin:0 auto;
 	padding:0 15px;
-	height:auto;
+	min-height:500px;
 	background-color: #f8f29e;
 }
 .cut_block{
 	display:inline-block;
 	width:calc(100% - 400px);
 	padding:0 20px 50px 0;
-	height:480px;
+	height:400px;
 	overflow:hidden;
 	position:relative;
 	font-size:18px;
@@ -149,30 +185,10 @@ header{
 }
 .fog{
 	width:100%;
-	height:70px;
+	height:100px;
 	background: linear-gradient(to top, rgba(248, 242, 158, 1), rgba(0, 0, 0, 0));
 	position:absolute;
 	bottom:0px;
-	display:flex;
-	justify-content: right;
-	align-items: center;
-}
-.fog:hover{
-	cursor:pointer;
-}
-.fog_img{
-	width:30px;
-	height:30px;
-	background-image:url("../images/arrow_blue_down.svg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	transition-duration: .3s;
-	transition-timing-function: linear;
-}
-.fog_up{
-	transform:rotate(180deg);
-	transition-duration: .3s;
-	transition-timing-function: linear;
 }
 .verter_img{
 	display:inline-block;

@@ -9,15 +9,34 @@
 	</head>
 	<body>
 		<header>
-			<nav class="header_content">
-				<img src="images/logo.png" class="logo" alt="logo" />
-				<div class="header_links">
-					<a href="#">О клубе</a>
-					<a href="#">Книги</a>
+			<div class="mobile_menu_back">
+				<div class="close"></div>
+				<nav class="mobile_menu_content">
+					<a href="about.html">О клубе</a>
+					<a href="books.html">Книги</a>
 					<a href="blog.html">Мнения</a>
 					<a href="#">Сувениры</a>
 					<a href="#">Контакты</a>
+					<img class="search_for_site search_icon_mobile" src="images/search.svg" alt="search" />
+					<div class="search_mobile_block">
+						<input type="text" placeholder="Что Вы ищите?" />
+						<div class="search_query_button_mobile"></div>
+					</div>
+				</nav>
+			</div>
+			<nav class="header_content">
+				<img src="images/logo.png" class="logo" alt="logo" />
+				<div class="header_links">
+					<a class="link_in_header" href="about.html">О клубе</a>
+					<a class="link_in_header" href="books.html">Книги</a>
+					<a class="link_in_header" href="blog.html">Мнения</a>
+					<a class="link_in_header" href="#">Сувениры</a>
+					<a class="link_in_header" href="#">Контакты</a>
 					<img class="search_for_site search_icon" src="images/search.svg" alt="search" />
+					<div class="search_block">
+						<input type="text" placeholder="Что Вы ищите?" />
+						<div class="search_query_button"></div>
+					</div>
 				</div>
 				<img class="menu_sendvich" src="images/mobile_menu.svg" alt="mobile_menu"/>
 			</nav>
@@ -70,6 +89,7 @@
 		<div class="footer_content">Это будет футер</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 	<script type="text/javascript" src="scripts/script_blog.js"></script>
 	</body>
 </html>
