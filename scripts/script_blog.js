@@ -25,3 +25,7 @@ $(document).on("click", ".send_opinion", function(){
 let empt = ()=>{
 	$(".user_opinion_down").children("span").empty();
 }
+/* show_more */
+$(document).on("click", ".show_more", function(){
+	alert("показать всё");
+});
