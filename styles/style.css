@@ -6,6 +6,11 @@
 	margin:0;
 	padding:0;
 	font-family:BodoniNovaNr;
+	box-sizing: border-box;
+}
+h1{
+	font-size:45px;
+	color:#594c4c;
 }
 .my_button{
 	width:auto;
@@ -168,7 +173,7 @@ header{
 	display:inline-block;
 	width:calc(100% - 400px);
 	padding:0 20px 50px 0;
-	height:400px;
+	height:443px;
 	overflow:hidden;
 	position:relative;
 	font-size:18px;
@@ -212,6 +217,23 @@ footer{
 	justify-content: space-between;
 	align-items: center;
 }
+.footer_menu a{
+	color:#f8f29e;
+	text-decoration:none;
+	margin:0 50px 0 0;
+}
+.social_nets_block a{
+	margin:0 30px 0 0;	
+}
+.footer_menu a:last-child, 
+.social_nets_block a:last-child{
+	margin:0;
+}
+.social_nets_block a img{
+	width:20px;
+	height: 20px;
+}
+
 
 
 @media (max-width:480px){
