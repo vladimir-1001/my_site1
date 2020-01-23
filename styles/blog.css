@@ -17,7 +17,7 @@
 }
 .user_opinion{
 	display:none;
-	max-width:670px;
+	max-width:700px;
 	margin:0 auto;
 	padding:15px;
 	height:300px;
@@ -72,7 +72,7 @@
 }
 .user_info{
 	width:200px;
-	height:175px;
+	height:190px;
 	float: left;
 	padding: 15px 15px 0 15px;
 	background-color:#d9f4ff;
