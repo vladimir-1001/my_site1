@@ -1,6 +1,10 @@
 @font-face{
 	font-family:BodoniNovaNr;
-	src:url("../fonts/BodoniNovaNr");
+	src:url("../fonts/BodoniNovaNr.ttf");
+}
+@font-face{
+	font-family:icon;
+	src:url("../fonts/FontAwesome.otf");
 }
 *{
 	margin:0;
@@ -151,6 +155,7 @@ header{
 .crubs_content{
 	color: #f8f29e;
 	text-transform: uppercase;
+	font-size: 12px;
 }
 .crubs_content a{
 	color:#f8f29e;
