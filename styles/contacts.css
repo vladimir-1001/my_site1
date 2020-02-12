@@ -1,0 +1,50 @@
+h2{
+	color:#594c4c;
+}
+.map_block{
+	width:100%;
+	height:70vh;
+	margin:20px 0 0 0;
+}
+.our_contacts{
+	display:flex;
+	justify-content:space-between;
+	padding: 15px 0
+}
+.our_adress{
+	color:#594c4c;
+}
+.our_links{
+	text-align:right;
+}
+.link{
+	color:#594c4c;
+	text-decoration: none;
+	border-bottom: 1px dotted #594c4c;
+}
+.link_phone_img:before{
+	content:url("../images/phone.svg");
+	width:20px;
+	height:20px;
+	position: relative;
+	right:10px;
+	top:6px;
+}
+.link_mail_img:before{
+	content:url("../images/menu-email.svg");
+	width:20px;
+	height:20px;
+	position: relative;
+	right:10px;
+	top:6px;
+}
+@media (max-width: 480px){
+	.our_contacts{
+		display:block;
+		text-align:center;
+	}
+	.our_links{
+		text-align:center;
+		margin:15px 0 0 0;	
+	}
+}
