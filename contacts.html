@@ -4,8 +4,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />
-		<link rel="stylesheet" type="text/css" href="styles/audiobooks.css" />
-		<title>Аудиокниги</title>
+		<link rel="stylesheet" type="text/css" href="styles/contacts.css" />
+		<title>Контакты</title>
 	</head>
 	<body>
 		<header>
@@ -42,42 +42,30 @@
 			</nav>
 		</header>
 		<div class="crumbs">
-			<div class="crubs_content"><a href="index.html">главная</a>&nbsp;&mdash;&nbsp;<span class="you_here">Аудиокниги</span></div>
+			<div class="crubs_content"><a href="index.html">главная</a>&nbsp;&mdash;&nbsp;<span class="you_here">контакты</span></div>
 		</div>
 		<div class="body_back">
 			<div class="body_content">
-				<section class="popular_audio">
-					<div>
-						<p class="audio_name">Название книги</p>
-						<div class="audio_block">
-							<div class="control_audio">
-								<img src="images/icons/back.svg" alt="back" />
-								<img src="images/icons/stop.svg" alt="stop" />
-								<img src="images/icons/play.svg" alt="play" />
-								<img src="images/icons/pause.svg" alt="pause" />
-								<img src="images/icons/front.svg" alt="front" />
-							</div>
-							<audio class="audio_book" src="audio/play_1.mp3"></audio>
-						</div>
-						<div class="audio_info">
-							<p class="sound_percent">_</p>
-							<p class="sound_timer">_</p>
-							<p class="sound_off"></p>
-							<p class="sound_down"></p>
-							<p class="sound_up"></p>
-						</div>
+				<h2>Как нас найти</h2>
+				<div class="map_block" id="map_block"></div>
+				<div class="our_contacts">
+					<div class="our_adress">
+					Наш адрес:<br>
+					г. Санкт-Петербург, Светлановский пр. д.60
 					</div>
-				</section>
-				
-				
-				
-			</div>
+					<div class="our_links">
+						<span class="link_phone_img"></span><a class="link phone_link" href="tel:8-800-0000000">8(800)0000000</a><br>
+						<span class="link_mail_img"><a class="link mail_link" href="mailto:vova@.rr.d">vova@.rr.d</a>
+					</div>
+				</div>
+			</div>	
 		</div>
 	<footer>
 		<div class="footer_content">Это будет футер</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU" type="text/javascript"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
-	<script type="text/javascript" src="scripts/audiobooks.js"></script>
+	<script type="text/javascript" src="scripts/contacts.js"></script>
 	</body>
 </html>
