@@ -1,3 +1,4 @@
+/* управление аудиоплеером */
 $(".control_audio img").click(function(){
 
 	function myTimer(){
@@ -32,3 +33,6 @@ $(".control_audio img").click(function(){
 
 	player[0].onloadeddata = times;
 });
+$(".all_audiobooks").click(function(){
+	document.location.href="all_audiobooks.html";
+})
