@@ -1,5 +1,7 @@
-
-
+.popular_audio div{
+	padding:15px 0;
+	border-bottom: 1px dotted #594c4c;
+}
 .audio_name{
 	text-transform: uppercase;
 	color:#594c4c;
@@ -9,10 +11,9 @@
 }
 .audio_block{
 	width:100%;
-	height:100px;
+	height:50px;
 	background-color:#594c4c;
     border-radius: 10px 10px 0 0;
-}
 }
 .audio_book{
 	width:100%;
@@ -26,7 +27,7 @@
 	height: inherit;
 }
 .control_audio img{
-	width:3.6%;
+	width:2%;
 }
 .control_audio img:hover{
 	cursor:pointer;
@@ -74,4 +75,32 @@
 .sound_down:hover,
 .sound_up:hover{
 	cursor: pointer;
+}
+.all_books_block{
+	text-align: center;
+	margin:50px auto 0 auto;
+}
+.all_audiobooks{
+	width:80%;
+	height:50px;
+	border:1px solid #594c4c;
+	border-radius: 20px;
+	background-color: #594c4c;
+	color:#f8f29e;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.all_audiobooks:hover{
+	cursor:pointer;
+}
+@media (max-width: 767px){
+	.control_audio img{
+		width:3%;
+	}
+}
+
+@media (max-width: 480px){
+	.control_audio img{
+		width:4%;
+	}
 }
