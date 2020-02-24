@@ -1,3 +1,6 @@
+.body_content{
+	min-height: auto;
+}
 .book_block{
 	display:inline-block;
 	width:560px;
@@ -6,6 +9,7 @@
 	border-radius: 5px;
 	overflow: hidden;
 	float:right;
+	margin:15px 0;
 }
 .book_block:nth-child(odd){
 	float:left;	
@@ -48,8 +52,49 @@
 .num_page{
 	text-decoration: none;
 	color:#594c4c;
+	margin:0 5px;
 }
 .page_active{
-	color:red;
-	text-decoration: underline;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	color:#f8f29e;
+	border:1px solid #594c4c;
+	border-radius: 50%;
+	background-color: #594c4c;
+	width:25px;
+	height:25px;
+	margin:0 5px;
+}
+@media (max-width: 991px){
+	.books_all{
+		text-align: center;
+	}
+	.book_block,
+	.book_block:nth-child(odd){
+		float:none;
+	}
+}
+@media (max-width: 480px){
+	.book_block,
+	.book_block:nth-child(odd){
+		width:440px;
+		height:180px;
+	}
+	.book_name {
+	    margin: 16px 0;
+	}
+}
+@media (max-width: 360px){
+	.book_block,
+	.book_block:nth-child(odd){
+		width:300px;
+		height:170px;
+	}
+	.book_image{
+		display:none;
+	}
+	.book_name {
+	    margin: 16px 0;
+	}
 }
