@@ -7,7 +7,7 @@
 	color:#594c4c;
 	text-align: center;
 	font-size:30px;
-	margin:0 0 15px 0;
+	margin:20px 0 15px 0;
 }
 .audio_block{
 	width:100%;
@@ -71,9 +71,7 @@
 	position: relative;
 	left:10px;
 }
-.sound_off:hover,
-.sound_down:hover,
-.sound_up:hover{
+.sound_control:hover{
 	cursor: pointer;
 }
 .all_books_block{
