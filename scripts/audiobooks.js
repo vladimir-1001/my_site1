@@ -11,7 +11,7 @@
 	];
 	let block = document.querySelector(".popular_audio");
 	let count_books = audio_books_all.length;
-	for(let book_audio in audio_books_all){
+	for(let book_audio of audio_books_all){
 		let myDiv = document.createElement("div");
 		block.appendChild(myDiv);
 
